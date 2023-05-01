@@ -8,6 +8,9 @@ This project is a simple Flask web application that utilizes Hugging Face's Infe
 
 The web app leverages the Hugging Face model [runwayml/stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5) to generate images from text. It uses the Flask web framework to create a user-friendly interface for inputting text and displaying the generated image. 
 
+<img width="869" alt="IDS721 final project photo" src="https://user-images.githubusercontent.com/70717089/235395725-d52d3f35-1b2e-4c2f-ae0a-d407607c4f62.png">
+
+
 ## Usage
 
 To use the application, follow these steps:
