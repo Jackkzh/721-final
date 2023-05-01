@@ -39,6 +39,8 @@ Example:
 - Input: "Astronaut riding a horse"
 - Output: An image of an astronaut riding a horse.
 
+![generated_image](https://user-images.githubusercontent.com/70717089/235404405-ae3ae7d2-d8e7-4102-a1ab-67c2300c5b9b.jpeg)
+
 ## References
 
 - Hugging Face Model: [runwayml/stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5)
