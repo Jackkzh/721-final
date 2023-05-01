@@ -6,7 +6,12 @@ This project is a simple Flask web application that utilizes Hugging Face's Infe
 
 ## Overview
 
-The web app leverages the Hugging Face model [runwayml/stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5) to generate images from text. It uses the Flask web framework to create a user-friendly interface for inputting text and displaying the generated image. 
+This project demonstrates the integration of the Hugging Face Inference API with a Flask web application to generate images based on textual descriptions. The app utilizes the [Stable Diffusion v1.5 model](https://huggingface.co/runwayml/stable-diffusion-v1-5) available on the Hugging Face Model Hub. Given a text input, the model generates an image that visually represents the description provided by the user.
+
+The Flask web application serves a simple user interface, which consists of a text box for entering a description, and a button to generate the image. Upon clicking the "Generate Image" button, the app sends a request to the Hugging Face Inference API with the given text input. The API returns an image as a response, which the app then displays below the text box.
+
+This project showcases how to integrate state-of-the-art machine learning models into a web application, providing users with a straightforward and interactive way to generate images from textual descriptions. It demonstrates the power of natural language understanding and image synthesis, enabling users to generate realistic images based on their creative ideas.
+
 
 <img width="869" alt="IDS721 final project photo" src="https://user-images.githubusercontent.com/70717089/235395725-d52d3f35-1b2e-4c2f-ae0a-d407607c4f62.png">
 
